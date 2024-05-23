@@ -1,0 +1,86 @@
+.background-2 {
+    left: 50%;
+    min-height: 484px;
+    padding: 94px 0 56px;
+    position: absolute;
+    top: 7516px;
+    width: 1440px;
+    background: #a12fb1;
+    margin-left: -720px;
+  }
+  .text-5 {
+    margin: 0 auto;
+    position: relative;
+    right: 9px;
+    width: 1152px;
+  }
+  .col-4 {
+    float: left;
+    position: relative;
+    width: 389px;
+  }
+  .body-text-21 {
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .body-text-22 {
+    margin: 30px 0 0 1px;
+    width: 388px;
+    font-size: 18.75px;
+    font-weight: 600;
+    line-height: 29.16667px;
+  }
+  .col-11 {
+    float: right;
+    margin: 3px 0 0;
+    position: relative;
+    width: 135px;
+  }
+  .body-text-27 {
+    font-size: 20.83333px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .body-text-28 {
+    margin: 32px 0 0 2px;
+    font-size: 18.75px;
+    line-height: 29.16667px;
+  }
+  .col-10 {
+    float: right;
+    margin: 3px 84px 0 0;
+    position: relative;
+    width: 143px;
+  }
+  .body-text-25 {
+    font-size: 20.83333px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .body-text-26 {
+    margin: 32px 0 0 2px;
+    font-size: 18.75px;
+    line-height: 29.16667px;
+  }
+  .col-9 {
+    float: right;
+    margin: 3px 86px 0 0;
+    position: relative;
+    width: 134px;
+  }
+  .body-text-23 {
+    font-size: 20.83333px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .body-text-24 {
+    margin: 32px 0 0 1px;
+    font-size: 18.75px;
+    line-height: 29.16667px;
+  }
+  .design-3 {
+    height: 81px;
+    margin: 78px 0 0;
+    position: relative;
+    background: #5d117f;
+  }

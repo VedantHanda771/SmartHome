@@ -1,0 +1,353 @@
+@charset "UTF-8";
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input, textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+
+
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section, time {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+textarea:focus, input:focus {
+  outline: 0;
+}
+
+input {
+  border-width: 0;
+}
+
+em {
+  font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.group:before,
+.group:after {
+  content: " ";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1;
+}
+
+embed,
+img,
+object,
+video {
+  max-width: 100%;
+}
+sup {
+  font-size: 58.3%;
+  vertical-align: text-top;
+}
+sub {
+  font-size: 58.3%;
+  vertical-align: text-bottom;
+}
+.no-space-between-inline-blocks {
+  letter-spacing: normal; /*reset IE < 8*/
+  letter-spacing: -0.31em; /*webkit*/
+  word-spacing: -0.43em; /*IE < 8 && gecko*/
+}
+/*restore spacing on inner elements*/
+.no-space-between-inline-blocks > * {
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+.displace {
+  left: -5000px;
+  position: absolute;
+}
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+html {
+  font-size: 16px;
+}
+body {
+  color: #ffffff;
+  font-family: Montserrat, sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+body {
+  float: none;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  width: 1440px;
+}
+.background {
+  height: 8000px;
+  position: relative;
+  width: 1440px;
+  background: #2b2b2b;
+}
+.place-your-image-here-double-click-to-edit {
+  left: 50%;
+  position: absolute;
+  top: 0;
+  margin-left: -720px;
+}
+.place-your-image-here-double-click-to-edit-2 {
+  left: 50%;
+  position: absolute;
+  top: 3547px;
+  margin-left: -720px;
+}
+.design {
+  left: 50%;
+  position: absolute;
+  top: 625px;
+  width: 1440px;
+  margin-left: -720px;
+}
+
+.nav-open {
+  display: block; /* Show the menu when the 'nav-open' class is added */
+}
+
+
+.image-3 > * {
+  display: inline-block;
+  vertical-align: top;
+}
+.group-1 {
+  left: 50%;
+  position: absolute;
+  top: 53px;
+  width: 1274px;
+  margin-left: -625px;
+}
+.row-6 {
+  position: relative;
+}
+
+.text-style {
+  line-height: 33px;
+}
+.text-style-2 {
+  font-size: 76.5264px;
+}
+
+
+.vector-smart-object-double-click-to-edit-16 {
+  float: left;
+}
+.nav {
+  float: left;
+  margin: 30px 54px;
+  position: relative;
+  
+}
+.nav a{
+  color: white;
+}
+.nav-list {
+  position: relative;
+  list-style: none;
+  color: white;
+}
+.nav-list ul {
+
+  color: white;
+}
+.nav-list li {
+  float: left;
+  margin: 0 44px 0 0;
+}
+.nav-list li:last-child {
+  margin-right: 0;
+}
+.nav-item-1 {
+  font-size: 21.86493px;
+  font-weight: 500;
+  color: white;
+}
+.nav-item-1-2 {
+  font-size: 21.86493px;
+  font-weight: 500;
+}
+.nav-item-1-3 {
+  font-size: 21.86493px;
+  font-weight: 500;
+}
+.social-media {
+  float: right;
+  margin: 28px 0 0;
+  position: relative;
+  width: 144px;
+}
+.icon {
+  position: relative;
+}
+.icon > * {
+  float: left;
+  margin: 0 10.46px 0 0;
+}
+.icon > *:last-child {
+  margin-right: 0 !important;
+}
+.button-copy-holder {
+  float: right;
+  margin: 22px 37px 0 0;
+  min-height: 38px;
+  padding: 0 24px;
+  position: relative;
+  width: 295px;
+  border: 1px solid #ffffff; /*stroke*/
+  -webkit-border-radius: 19.24px 19.26px;
+  -moz-border-radius: 19.24px 19.26px;
+  border-radius: 19.24px 19.26px;
+  font-size: 21.86493px;
+  font-weight: 500;
+  line-height: 38px;
+  text-align: right;
+  background-color: transparent; /* Make background transparent */
+  color: #000; /* Ensure text color is visible */
+}
+.button-copy-holder input[type="text"] {
+  width: 100%;
+  padding: 5px 10px; /* Adjust padding for better fit */
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border-radius: 19.24px; /* Ensure rounded corners for input */
+  box-shadow: none; /* Remove inner shadow */
+  background-color: transparent; /* Make input background transparent */
+  color: #000; /* Ensure text is visible on transparent background */
+}
+.button-holder-2-transparent {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white; /* Optional: set text color to white */
+  padding: 8px 16px; /* Optional: adjust padding for better appearance */
+  /* Add any other styling as needed */
+}
+.button-copy-holder input[type="text"]::placeholder {
+  color: #aaa;
+}
+.row-7 {
+  margin: 94px auto 0;
+  position: relative;
+  right: 24.5px;
+  width: 1155px;
+}
+.col-19 {
+  float: left;
+  margin: 60px 90px 0 0;
+  position: relative;
+  width: 519px;
+}
+.sub-7 {
+  position: relative;
+  font-family: Audiowide, display;
+  font-size: 103.74237px;
+  letter-spacing: 0.05em;
+  line-height: 96.85854px;
+}
+.title-4 {
+  margin: -10px 0 0;
+  position: relative;
+  font-size: 58.35759px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+.body-text-29 {
+  margin: 30px 0 0;
+  width: 460px;
+  font-size: 26.30511px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.button-holder-2 {
+  margin: 43px 0 0 4px;
+  min-height: 54px;
+  padding: 0 0 0 12px;
+  position: relative;
+  width: 275px;
+  border: 1px solid #ffffff; /*stroke*/
+  -webkit-border-radius: 27px;
+  -moz-border-radius: 27px;
+  border-radius: 27px;
+  font-size: 27.59884px;
+  line-height: 54px;
+  text-align: center;
+  background-color: transparent;
+}
+.vector-smart-object-double-click-to-edit-17 {
+  float: left;
+}
